@@ -1,0 +1,25 @@
+<%- include("header") %>
+
+<div class="form">
+  <form action="/" method="POST">
+    <input type="text" name="cityName" placeholder="City Name" autocomplete="off" required/>
+    <button class="btn btn-lg btn-outline-dark" type="submit"> Search City </button>
+  </form>
+
+  <article class="widget">
+    <div class="weatherIcon"><img src=" <%=imageURL %>" /></div>
+    <div class="weatherInfo">
+      <div class="temperature"><span><%= temp %> &deg;</span></div>
+      <div class="description">    
+        <div class="weatherCondition"><%=weatherDesc %></div>    
+        <div class="place"><%= query %></div>
+      </div>
+    </div>
+    <div class="date"> <%= date %></div>
+  </article>
+
+
+
+
+  <%- include("footer") %>
+</div>
