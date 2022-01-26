@@ -1,5 +1,6 @@
 # Live-Weather-v3
 No error handling
+![weather](https://user-images.githubusercontent.com/81632171/151234587-68eaf295-7708-4ed2-bb3b-94a355b2d255.png)
 
 ## Installation
 1) clone the project
